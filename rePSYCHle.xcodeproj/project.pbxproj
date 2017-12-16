@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF5ADC8E1FE5CB4D00A6C452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5ADC8D1FE5CB4D00A6C452 /* AppDelegate.swift */; };
+		AF5ADC901FE5CB4D00A6C452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5ADC8F1FE5CB4D00A6C452 /* ViewController.swift */; };
+		AF5ADC931FE5CB4D00A6C452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5ADC911FE5CB4D00A6C452 /* Main.storyboard */; };
+		AF5ADC951FE5CB4D00A6C452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5ADC941FE5CB4D00A6C452 /* Assets.xcassets */; };
+		AF5ADC981FE5CB4D00A6C452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5ADC961FE5CB4D00A6C452 /* LaunchScreen.storyboard */; };
+		AF5ADCA31FE5CB4D00A6C452 /* rePSYCHleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5ADCA21FE5CB4D00A6C452 /* rePSYCHleTests.swift */; };
+		AF5ADCAE1FE5CB4D00A6C452 /* rePSYCHleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5ADCAD1FE5CB4D00A6C452 /* rePSYCHleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF5ADC9F1FE5CB4D00A6C452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5ADC821FE5CB4D00A6C452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5ADC891FE5CB4D00A6C452;
+			remoteInfo = rePSYCHle;
+		};
+		AF5ADCAA1FE5CB4D00A6C452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5ADC821FE5CB4D00A6C452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5ADC891FE5CB4D00A6C452;
+			remoteInfo = rePSYCHle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF5ADC8A1FE5CB4D00A6C452 /* rePSYCHle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rePSYCHle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5ADC8D1FE5CB4D00A6C452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF5ADC8F1FE5CB4D00A6C452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF5ADC921FE5CB4D00A6C452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF5ADC941FE5CB4D00A6C452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF5ADC971FE5CB4D00A6C452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF5ADC991FE5CB4D00A6C452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5ADC9E1FE5CB4D00A6C452 /* rePSYCHleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rePSYCHleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5ADCA21FE5CB4D00A6C452 /* rePSYCHleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rePSYCHleTests.swift; sourceTree = "<group>"; };
+		AF5ADCA41FE5CB4D00A6C452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5ADCA91FE5CB4D00A6C452 /* rePSYCHleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rePSYCHleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5ADCAD1FE5CB4D00A6C452 /* rePSYCHleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rePSYCHleUITests.swift; sourceTree = "<group>"; };
+		AF5ADCAF1FE5CB4D00A6C452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF5ADC871FE5CB4D00A6C452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5ADC9B1FE5CB4D00A6C452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5ADCA61FE5CB4D00A6C452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF5ADC811FE5CB4D00A6C452 = {
+			isa = PBXGroup;
+			children = (
+				AF5ADC8C1FE5CB4D00A6C452 /* rePSYCHle */,
+				AF5ADCA11FE5CB4D00A6C452 /* rePSYCHleTests */,
+				AF5ADCAC1FE5CB4D00A6C452 /* rePSYCHleUITests */,
+				AF5ADC8B1FE5CB4D00A6C452 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF5ADC8B1FE5CB4D00A6C452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF5ADC8A1FE5CB4D00A6C452 /* rePSYCHle.app */,
+				AF5ADC9E1FE5CB4D00A6C452 /* rePSYCHleTests.xctest */,
+				AF5ADCA91FE5CB4D00A6C452 /* rePSYCHleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF5ADC8C1FE5CB4D00A6C452 /* rePSYCHle */ = {
+			isa = PBXGroup;
+			children = (
+				AF5ADC8D1FE5CB4D00A6C452 /* AppDelegate.swift */,
+				AF5ADC8F1FE5CB4D00A6C452 /* ViewController.swift */,
+				AF5ADC911FE5CB4D00A6C452 /* Main.storyboard */,
+				AF5ADC941FE5CB4D00A6C452 /* Assets.xcassets */,
+				AF5ADC961FE5CB4D00A6C452 /* LaunchScreen.storyboard */,
+				AF5ADC991FE5CB4D00A6C452 /* Info.plist */,
+			);
+			path = rePSYCHle;
+			sourceTree = "<group>";
+		};
+		AF5ADCA11FE5CB4D00A6C452 /* rePSYCHleTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF5ADCA21FE5CB4D00A6C452 /* rePSYCHleTests.swift */,
+				AF5ADCA41FE5CB4D00A6C452 /* Info.plist */,
+			);
+			path = rePSYCHleTests;
+			sourceTree = "<group>";
+		};
+		AF5ADCAC1FE5CB4D00A6C452 /* rePSYCHleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF5ADCAD1FE5CB4D00A6C452 /* rePSYCHleUITests.swift */,
+				AF5ADCAF1FE5CB4D00A6C452 /* Info.plist */,
+			);
+			path = rePSYCHleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF5ADC891FE5CB4D00A6C452 /* rePSYCHle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5ADCB21FE5CB4D00A6C452 /* Build configuration list for PBXNativeTarget "rePSYCHle" */;
+			buildPhases = (
+				AF5ADC861FE5CB4D00A6C452 /* Sources */,
+				AF5ADC871FE5CB4D00A6C452 /* Frameworks */,
+				AF5ADC881FE5CB4D00A6C452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rePSYCHle;
+			productName = rePSYCHle;
+			productReference = AF5ADC8A1FE5CB4D00A6C452 /* rePSYCHle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF5ADC9D1FE5CB4D00A6C452 /* rePSYCHleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5ADCB51FE5CB4D00A6C452 /* Build configuration list for PBXNativeTarget "rePSYCHleTests" */;
+			buildPhases = (
+				AF5ADC9A1FE5CB4D00A6C452 /* Sources */,
+				AF5ADC9B1FE5CB4D00A6C452 /* Frameworks */,
+				AF5ADC9C1FE5CB4D00A6C452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5ADCA01FE5CB4D00A6C452 /* PBXTargetDependency */,
+			);
+			name = rePSYCHleTests;
+			productName = rePSYCHleTests;
+			productReference = AF5ADC9E1FE5CB4D00A6C452 /* rePSYCHleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF5ADCA81FE5CB4D00A6C452 /* rePSYCHleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5ADCB81FE5CB4D00A6C452 /* Build configuration list for PBXNativeTarget "rePSYCHleUITests" */;
+			buildPhases = (
+				AF5ADCA51FE5CB4D00A6C452 /* Sources */,
+				AF5ADCA61FE5CB4D00A6C452 /* Frameworks */,
+				AF5ADCA71FE5CB4D00A6C452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5ADCAB1FE5CB4D00A6C452 /* PBXTargetDependency */,
+			);
+			name = rePSYCHleUITests;
+			productName = rePSYCHleUITests;
+			productReference = AF5ADCA91FE5CB4D00A6C452 /* rePSYCHleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF5ADC821FE5CB4D00A6C452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = rePSYCHle;
+				TargetAttributes = {
+					AF5ADC891FE5CB4D00A6C452 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AF5ADC9D1FE5CB4D00A6C452 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF5ADC891FE5CB4D00A6C452;
+					};
+					AF5ADCA81FE5CB4D00A6C452 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF5ADC891FE5CB4D00A6C452;
+					};
+				};
+			};
+			buildConfigurationList = AF5ADC851FE5CB4D00A6C452 /* Build configuration list for PBXProject "rePSYCHle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF5ADC811FE5CB4D00A6C452;
+			productRefGroup = AF5ADC8B1FE5CB4D00A6C452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF5ADC891FE5CB4D00A6C452 /* rePSYCHle */,
+				AF5ADC9D1FE5CB4D00A6C452 /* rePSYCHleTests */,
+				AF5ADCA81FE5CB4D00A6C452 /* rePSYCHleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF5ADC881FE5CB4D00A6C452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5ADC981FE5CB4D00A6C452 /* LaunchScreen.storyboard in Resources */,
+				AF5ADC951FE5CB4D00A6C452 /* Assets.xcassets in Resources */,
+				AF5ADC931FE5CB4D00A6C452 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5ADC9C1FE5CB4D00A6C452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5ADCA71FE5CB4D00A6C452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF5ADC861FE5CB4D00A6C452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5ADC901FE5CB4D00A6C452 /* ViewController.swift in Sources */,
+				AF5ADC8E1FE5CB4D00A6C452 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5ADC9A1FE5CB4D00A6C452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5ADCA31FE5CB4D00A6C452 /* rePSYCHleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5ADCA51FE5CB4D00A6C452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5ADCAE1FE5CB4D00A6C452 /* rePSYCHleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF5ADCA01FE5CB4D00A6C452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5ADC891FE5CB4D00A6C452 /* rePSYCHle */;
+			targetProxy = AF5ADC9F1FE5CB4D00A6C452 /* PBXContainerItemProxy */;
+		};
+		AF5ADCAB1FE5CB4D00A6C452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5ADC891FE5CB4D00A6C452 /* rePSYCHle */;
+			targetProxy = AF5ADCAA1FE5CB4D00A6C452 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF5ADC911FE5CB4D00A6C452 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5ADC921FE5CB4D00A6C452 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF5ADC961FE5CB4D00A6C452 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5ADC971FE5CB4D00A6C452 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF5ADCB01FE5CB4D00A6C452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF5ADCB11FE5CB4D00A6C452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF5ADCB31FE5CB4D00A6C452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rePSYCHle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rePSYCHle.rePSYCHle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF5ADCB41FE5CB4D00A6C452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rePSYCHle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rePSYCHle.rePSYCHle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF5ADCB61FE5CB4D00A6C452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rePSYCHleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rePSYCHle.rePSYCHleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rePSYCHle.app/rePSYCHle";
+			};
+			name = Debug;
+		};
+		AF5ADCB71FE5CB4D00A6C452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rePSYCHleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rePSYCHle.rePSYCHleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rePSYCHle.app/rePSYCHle";
+			};
+			name = Release;
+		};
+		AF5ADCB91FE5CB4D00A6C452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rePSYCHleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rePSYCHle.rePSYCHleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rePSYCHle;
+			};
+			name = Debug;
+		};
+		AF5ADCBA1FE5CB4D00A6C452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rePSYCHleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rePSYCHle.rePSYCHleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rePSYCHle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF5ADC851FE5CB4D00A6C452 /* Build configuration list for PBXProject "rePSYCHle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5ADCB01FE5CB4D00A6C452 /* Debug */,
+				AF5ADCB11FE5CB4D00A6C452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5ADCB21FE5CB4D00A6C452 /* Build configuration list for PBXNativeTarget "rePSYCHle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5ADCB31FE5CB4D00A6C452 /* Debug */,
+				AF5ADCB41FE5CB4D00A6C452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5ADCB51FE5CB4D00A6C452 /* Build configuration list for PBXNativeTarget "rePSYCHleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5ADCB61FE5CB4D00A6C452 /* Debug */,
+				AF5ADCB71FE5CB4D00A6C452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5ADCB81FE5CB4D00A6C452 /* Build configuration list for PBXNativeTarget "rePSYCHleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5ADCB91FE5CB4D00A6C452 /* Debug */,
+				AF5ADCBA1FE5CB4D00A6C452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF5ADC821FE5CB4D00A6C452 /* Project object */;
+}
