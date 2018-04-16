@@ -1,41 +1,15 @@
 //
-//  Notifier.swift
+//  ViewController.swift
 //  rePSYCHle
 //
-//  Created by Brailow, Parker on 2/7/18.
+//  Created by Brailow, Parker on 4/16/18.
 //  Copyright © 2018 rePSYCHle. All rights reserved.
 //
 
 import UIKit
 
-class Notifier: UIViewController {
-    @IBOutlet weak var switchButton: UISwitch!
-    @IBOutlet weak var Notification: UITextField!
-    
-    func switchValue() -> Bool
-    {
-        if (switchButton.isOn)
-        {
-            return true
-        }
-        else
-        {
-            return false
-        }
-    }
-    
-    func dayOfWeek() -> Int?
-    {
-        return Calendar.current.component(.weekday, from: Date())
-    }
-    
-    func message() -> Void
-    {
-        if (dayOfWeek() = 1)//how do I make the method just like a var?
-        {
-            
-        }
-    }
+class viewer: UIViewController {
+
 
     override func viewDidLoad() {
         super.viewDidLoad()

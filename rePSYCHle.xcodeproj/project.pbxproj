@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		AF5ADC8E1FE5CB4D00A6C452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5ADC8D1FE5CB4D00A6C452 /* AppDelegate.swift */; };
 		AF5ADC901FE5CB4D00A6C452 /* Sign-in.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5ADC8F1FE5CB4D00A6C452 /* Sign-in.swift */; };
-		AF5ADC931FE5CB4D00A6C452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5ADC911FE5CB4D00A6C452 /* Main.storyboard */; };
+		AF5ADC931FE5CB4D00A6C452 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5ADC911FE5CB4D00A6C452 /* main.storyboard */; };
 		AF5ADC951FE5CB4D00A6C452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5ADC941FE5CB4D00A6C452 /* Assets.xcassets */; };
 		AF5ADC981FE5CB4D00A6C452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5ADC961FE5CB4D00A6C452 /* LaunchScreen.storyboard */; };
 		AF5ADCA31FE5CB4D00A6C452 /* rePSYCHleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5ADCA21FE5CB4D00A6C452 /* rePSYCHleTests.swift */; };
 		AF5ADCAE1FE5CB4D00A6C452 /* rePSYCHleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5ADCAD1FE5CB4D00A6C452 /* rePSYCHleUITests.swift */; };
 		FAB47E44202B8BB90065BB65 /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB47E43202B8BB90065BB65 /* Notifier.swift */; };
+		FAC7ED84208516660090EA6B /* viewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7ED83208516660090EA6B /* viewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		AF5ADC8A1FE5CB4D00A6C452 /* rePSYCHle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rePSYCHle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5ADC8D1FE5CB4D00A6C452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF5ADC8F1FE5CB4D00A6C452 /* Sign-in.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sign-in.swift"; sourceTree = "<group>"; };
-		AF5ADC921FE5CB4D00A6C452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF5ADC921FE5CB4D00A6C452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/main.storyboard; sourceTree = "<group>"; };
 		AF5ADC941FE5CB4D00A6C452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF5ADC971FE5CB4D00A6C452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF5ADC991FE5CB4D00A6C452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		AF5ADCAD1FE5CB4D00A6C452 /* rePSYCHleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rePSYCHleUITests.swift; sourceTree = "<group>"; };
 		AF5ADCAF1FE5CB4D00A6C452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB47E43202B8BB90065BB65 /* Notifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
+		FAC7ED83208516660090EA6B /* viewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				AF5ADC8D1FE5CB4D00A6C452 /* AppDelegate.swift */,
 				AF5ADC8F1FE5CB4D00A6C452 /* Sign-in.swift */,
-				AF5ADC911FE5CB4D00A6C452 /* Main.storyboard */,
+				AF5ADC911FE5CB4D00A6C452 /* main.storyboard */,
 				AF5ADC941FE5CB4D00A6C452 /* Assets.xcassets */,
 				AF5ADC961FE5CB4D00A6C452 /* LaunchScreen.storyboard */,
 				AF5ADC991FE5CB4D00A6C452 /* Info.plist */,
 				FAB47E43202B8BB90065BB65 /* Notifier.swift */,
+				FAC7ED83208516660090EA6B /* viewer.swift */,
 			);
 			path = rePSYCHle;
 			sourceTree = "<group>";
@@ -237,7 +240,7 @@
 			files = (
 				AF5ADC981FE5CB4D00A6C452 /* LaunchScreen.storyboard in Resources */,
 				AF5ADC951FE5CB4D00A6C452 /* Assets.xcassets in Resources */,
-				AF5ADC931FE5CB4D00A6C452 /* Main.storyboard in Resources */,
+				AF5ADC931FE5CB4D00A6C452 /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +267,7 @@
 			files = (
 				AF5ADC901FE5CB4D00A6C452 /* Sign-in.swift in Sources */,
 				FAB47E44202B8BB90065BB65 /* Notifier.swift in Sources */,
+				FAC7ED84208516660090EA6B /* viewer.swift in Sources */,
 				AF5ADC8E1FE5CB4D00A6C452 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,12 +304,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AF5ADC911FE5CB4D00A6C452 /* Main.storyboard */ = {
+		AF5ADC911FE5CB4D00A6C452 /* main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AF5ADC921FE5CB4D00A6C452 /* Base */,
 			);
-			name = Main.storyboard;
+			name = main.storyboard;
 			sourceTree = "<group>";
 		};
 		AF5ADC961FE5CB4D00A6C452 /* LaunchScreen.storyboard */ = {
@@ -431,7 +435,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X77K8LBKTS;
 				INFOPLIST_FILE = rePSYCHle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rePSYCHle.rePSYCHle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,7 +451,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X77K8LBKTS;
 				INFOPLIST_FILE = rePSYCHle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rePSYCHle.rePSYCHle;
 				PRODUCT_NAME = "$(TARGET_NAME)";

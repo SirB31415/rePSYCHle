@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -153,18 +154,39 @@
             </objects>
             <point key="canvasLocation" x="45.600000000000001" y="32.833583208395808"/>
         </scene>
-        <!--View Controller-->
+        <!--Notifier-->
         <scene sceneID="vPO-3d-Xi8">
             <objects>
-                <viewController id="bjT-PE-pmZ" sceneMemberID="viewController">
+                <viewController id="bjT-PE-pmZ" customClass="Notifier" customModule="rePSYCHle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rYH-cT-7pi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H1Y-t5-acA">
+                                <rect key="frame" x="152" y="62" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LtZ-iL-gt9">
+                                <rect key="frame" x="177" y="100" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Notifications:" destination="Biq-iB-8pg" eventType="valueChanged" id="KHg-6K-bTa"/>
+                                </connections>
+                            </switch>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="quN-fq-Msq"/>
                     </view>
+                    <connections>
+                        <outlet property="Notification" destination="H1Y-t5-acA" id="WGP-OX-fJ4"/>
+                        <outlet property="switchButton" destination="LtZ-iL-gt9" id="q26-9y-0Lw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f4M-TA-EnE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Biq-iB-8pg" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="764" y="33"/>
         </scene>
